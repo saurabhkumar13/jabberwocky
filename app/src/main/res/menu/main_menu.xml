@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wuxiaworld.xianxia.MainActivity">
+    <!--<item-->
+        <!--android:title="My Profile"-->
+        <!--android:id="@+id/noti"-->
+        <!--android:icon="@android:drawable/stat_notify_sync"-->
+        <!--app:showAsAction="ifRoom"/>-->
+    <item
+        android:title="My Profile"
+        android:id="@+id/MyProfile"
+        android:icon="@drawable/ic_picture_in_picture_alt_white_48dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="Log Out"
+        android:id="@+id/LogOut"
+        android:icon="@drawable/ic_settings_white_48dp"
+        app:showAsAction="ifRoom"/>
+</menu>
